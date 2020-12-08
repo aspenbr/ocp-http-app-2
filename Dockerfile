@@ -1,6 +1,7 @@
 # Apache puro DockerFile 
 #FROM docker.io/darksheer/centos:latest
-FROM ubi7/ubi:7.7
+#FROM ubi7/ubi:7.7
+FROM rhel7-minimal:latest
 #ENV GOPATH=/root/buildah 
 
 RUN yum -y install \ 
