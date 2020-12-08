@@ -2,7 +2,8 @@
 #FROM docker.io/darksheer/centos:latest
 #FROM ubi7/ubi:7.7
 #FROM rhel7-minimal:latest
-FROM registry.redhat.io/rhel7
+#FROM registry.redhat.io/rhel7
+FROM registry.access.redhat.com/ubi7/ubi
 #ENV GOPATH=/root/buildah 
 
 RUN yum -y install \ 
